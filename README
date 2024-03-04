@@ -68,3 +68,5 @@ Q. Which customer type pays the most in VAT?
 Q. Which day has the best average ratings per branch?
 Q. Which time of the day do customers give the most ratings?
 Q. Which day of the week has the best average ratings?
+
+NOTE:- For the rest of the code, check the SQL_queries.sql file
