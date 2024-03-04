@@ -1,0 +1,70 @@
+* ABOUT
+
+This project aims to analyze Walmart Sales data to gain insights into the performance of top branches and products, sales trends across different product categories, and customer behavior. 
+The objective is to explore ways to enhance and optimize sales strategies. The dataset utilized in this project originates from the Kaggle Walmart Sales Forecasting Competition. Each store 
+comprises multiple departments, and the task involves predicting sales for each department within each store. 
+
+* Purposes Of The Project
+
+The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+
+* About Data
+
+The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. This dataset contains sales transactions from a three different branches of Walmart, 
+respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+
+Column	Description	Data Type
+invoice_id	Invoice of the sales made	VARCHAR(30)
+branch	Branch at which sales were made	VARCHAR(5)
+city	The location of the branch	VARCHAR(30)
+customer_type	The type of the customer	VARCHAR(30)
+gender	Gender of the customer making purchase	VARCHAR(10)
+product_line	Product line of the product solf	VARCHAR(100)
+unit_price	The price of each product	DECIMAL(10, 2)
+quantity	The amount of the product sold	INT
+VAT	The amount of tax on the purchase	FLOAT(6, 4)
+total	The total cost of the purchase	DECIMAL(10, 2)
+date	The date on which the purchase was made	DATE
+time	The time at which the purchase was made	TIMESTAMP
+payment_method	The total amount paid	DECIMAL(10, 2)
+cogs	Cost Of Goods sold	DECIMAL(10, 2)
+gross_margin_percentage	Gross margin percentage	FLOAT(11, 9)
+gross_income	Gross Income	DECIMAL(10, 2)
+rating	Rating	FLOAT(2, 1)
+
+* Business Questions To Answer
+
+SECTION 1. Branches and Ratings
+
+Q. How many branches are there?
+Q. What are the distinct cities?
+Q. What are the customer types?
+Q. Which branch had the largest revenue?
+Q. What is the city with the largest revenue?
+Q. Which branch sold more products than the average number of products sold?
+
+SECTION 2. Products
+
+Q. How many unique product lines are there?
+Q. What is the most selling product line?
+Q. What product line had the largest revenue?
+Q. What product line had the largest VAT?
+Q. What is the average rating of each product line?
+
+SECTION 3. Customers
+
+Q. How many unique customer types does the data have?
+Q. How many unique payment methods does the data have?
+Q. What is the most common customer type?
+Q. Which customer type buys the most?
+Q. What is the gender distribution every month at each branch?
+
+SECTION 4. Sales
+
+Q. What is the number of sales made each time of the day?
+Q. Which customer type brings the most revenue?
+Q. Which city has the largest tax/VAT percentage?
+Q. Which customer type pays the most in VAT?
+Q. Which day has the best average ratings per branch?
+Q. Which time of the day do customers give the most ratings?
+Q. Which day of the week has the best average ratings?
